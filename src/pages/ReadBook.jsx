@@ -38,6 +38,14 @@ const ReadBook = () => {
       color: 'text-purple-700',
       bgColor: 'bg-purple-50',
       borderColor: 'border-purple-200'
+    },
+    prince2: {
+      name: 'PRINCE2',
+      file: 'pince2.json',
+      description: 'PRojects IN Controlled Environments - Structured project management method',
+      color: 'text-orange-700',
+      bgColor: 'bg-orange-50',
+      borderColor: 'border-orange-200'
     }
   }
 
