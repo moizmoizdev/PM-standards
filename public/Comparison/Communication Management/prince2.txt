@@ -1,0 +1,16 @@
+In PRINCE2, communication is presented as a central "people-focused" activity, essential for creating a shared understanding, building relationships, and managing stakeholders across the project ecosystem.
+{b}Purpose of Communication:{b}
+The purpose of communication is to ensure that all parties involved have a clear and common understanding of the project's objectives, progress, and their respective roles. It is equally about listening and broadcasting, seeking to understand perceptions and concerns within the project ecosystem so they can be addressed before they become significant risks.
+{b}The Communication Management Approach:{b}
+This is a key management product in PRINCE2, created during the initiation stage. Its purpose is to define and describe the means and frequency of communication with, and receiving feedback from, across the project ecosystem. It facilitates engagement with stakeholders through the establishment of a controlled and bidirectional flow of information.
+{b}High-level Content of the Communication Management Approach:{b}
+Scope: Describes what communication will be managed by the project.
+Stakeholder Analysis: Identification and analysis of those impacted by the project's outcome or delivery process, and those who have the influence to impact its success or failure.
+Communications Schedule and Procedure(s): Details for each stakeholder group, including purpose, frequency, channels/format, and messaging.
+Responsibilities, Resources, Tools, and Techniques: Defines who is responsible for communication activities and what resources and tools will be used.
+Standards and References: Any standards that apply to communication activities (e.g., public engagement standards) or references to associated documents.
+{b}Key Communication Concepts:{b}
+Listening and Broadcasting: The approach is not just about sending information but also about actively listening to understand concerns and perceptions.
+Key Influencers: Generic messaging is rarely effective. The method emphasizes identifying and working with key influencers from user, supplier, and business groups to shape and support communications.
+Multiple Formats and Feedback Pathways: Information should be provided in multiple formats that people can share easily, and multiple pathways should be available for people to give feedback.
+Contextual Communication: The approach to communication depends on whether teams are co-located (where information is shared organically), remote (requiring a more deliberate and structured approach), or hybrid.

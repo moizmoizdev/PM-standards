@@ -1,0 +1,18 @@
+{b}Differences (Unique Terminologies and Methodologies){b}
+The primary differences lie in the core philosophy, structure, and specific terminology used by each standard.
+{b}Core Philosophy and Structure{b}
+{b}ISO:{b} Acts as a high-level guidance framework, not a methodology. It describes what should be considered (the concepts and practices) but is not prescriptive about how to implement them. Its structure is separated into {b}ISO 21500{b} (Context and Concepts) and {b}ISO 21502{b} (Guidance on Project Management).
+{b}PRINCE2:{b} Is a prescriptive method. It provides a step-by-step, process-based lifecycle for a project, structured around {b}seven Processes{b}, {b}seven Practices{b}, and {b}seven Principles{b}. It details what should be done, who is responsible, and when it should happen.
+{b}PMI:{b} Is a principle-based framework. The {b}PMBOK® Guide 7th Edition{b} moves away from a process-centric model to one based on {b}12 Principles{b} that guide behavior and {b}8 Performance Domains{b} that represent broad areas of focus for project work. The {b}Process Groups Practice Guide{b} is provided as a supplementary resource for those who still use a process-based approach.
+{b}Terminology for Key Concepts{b}
+{b}Project Documentation:{b}
+{b}PRINCE2{b} uses the term {b}Management Products{b} for all project documentation, which are strictly defined with specific purposes and compositions (e.g., {b}Project Initiation Documentation{b}, {b}Project Brief{b}, {b}Highlight Report{b}).
+{b}PMI{b} uses the broader term {b}Artifacts{b}, which includes templates, documents, outputs, and deliverables (e.g., {b}Project Charter{b}, {b}Project Management Plan{b}, {b}Risk Register{b}).
+{b}Project Justification:{b}
+While all use a {b}Business Case{b}, {b}PRINCE2{b} formally distinguishes between an {b}Outline Business Case{b} (created pre-project) and a full {b}Business Case{b} (developed during initiation).
+{b}Work Breakdown:{b}
+{b}PRINCE2{b} is uniquely product-focused, using a {b}Product Breakdown Structure (PBS){b} to identify all deliverables first, which then informs the activities.
+{b}PMI{b} and {b}ISO{b} focus on the {b}Work Breakdown Structure (WBS){b}, which decomposes the total scope of work to be carried out.
+{b}Governance and Roles{b}
+{b}PRINCE2:{b} Prescribes a specific governance structure called the {b}Project Board{b}, with three distinct roles representing key interests: the {b}Executive{b} (business), the {b}Senior User{b} (user), and the {b}Senior Supplier{b} (supplier). The {b}Project Manager{b} reports to this board.
+{b}ISO & PMI:{b} Use more general terms. {b}ISO{b} refers to a {b}Governing Body{b} or {b}Sponsor{b}. {b}PMI{b} primarily refers to the {b}Sponsor{b}, who champions the project and provides resources, and the {b}Project Manager{b}, who leads the team. The structure is less rigidly defined and more adaptable to the organization.

@@ -1,0 +1,16 @@
+The ISO standards emphasize that projects, programmes, and portfolios exist within an organizational environment, and the organization itself exists within a larger external environment. These environments create the context in which projects operate.
+{b}Overall Context{b}
+The organizational environment is affected by both internal and external factors influencing organizational activities and decision-making. An organization should consider these influences regarding the governance and management of projects. The project, programme, and portfolio governance should reflect the structure and culture of the organizational governance.
+{b}Organizational Environment (Internal Factors){b}
+The internal environment consists of internal stakeholders and is influenced by the structure, culture, and processes of the organization. Factors within the organization, such as strategy, technology, general and project management maturity, resource availability, and organizational culture and structure, can have an impact on a project’s success. Internal stakeholders include, but are not limited to:
+Members of the governing body.
+Managers in their role as resource owners or in other operational or functional roles.
+Sponsors.
+Project, programme and portfolio managers.
+Employees of the organization impacted by the project, programme or portfolio.
+{b}External Environment (External Factors){b}
+The external environment of the organization affects its ability to realize benefits. Factors to be considered in the external environment include, but are not limited to:
+Opportunities and threats arising from economic, political, social, technological, legal and environmental constraints.
+Expectations and requirements from government or public authorities, clients, suppliers, contractors, other business partners and the public.
+Benefits realization from deliverables, outputs and outcomes produced by the projects and programmes for external stakeholders.
+Projects involving multiple organizations as a means to collaborate with parts of the external environment.

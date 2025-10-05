@@ -1,0 +1,20 @@
+The PMI standards treat stakeholder engagement as a distinct and continuous Project Performance Domain, supported by specific processes that are applied throughout the project lifecycle.
+{b}The Stakeholder Performance Domain (from PMBOK® Guide – Seventh Edition):{b}
+This performance domain addresses the activities and functions associated with stakeholders. Effective execution of this domain results in:
+A productive working relationship with stakeholders throughout the project.
+Stakeholder agreement with project objectives.
+Supportive project beneficiaries and stakeholders who do not negatively impact project outcomes.
+{b}Definition of a Stakeholder:{b}
+A stakeholder is "an individual, group, or organization that may affect, be affected by, or perceive itself to be affected by a decision, activity, or outcome of a project, program, or portfolio."
+{b}Stakeholder Engagement Process Steps (from PMBOK® Guide – Seventh Edition):{b}
+Stakeholder engagement is a continuous activity that includes the following steps:
+Identify: High-level identification occurs before the project team is formed, with detailed identification continuing throughout the project. It involves finding stakeholders who may not be directly connected to the project.
+Understand and Analyze: The project team seeks to understand stakeholders’ feelings, emotions, beliefs, and values. Analysis considers stakeholder aspects such as power, impact, attitude, beliefs, expectations, degree of influence, proximity, and interest in the project.
+Prioritize: Because it's often not possible to engage with all stakeholders directly, the team prioritizes them, commonly focusing on those with the most power and interest. Prioritization is re-evaluated as the project evolves.
+Engage: This entails working collaboratively with stakeholders to introduce the project, elicit requirements, manage expectations, resolve issues, negotiate, prioritize, and make decisions. It requires soft skills like active listening, interpersonal skills, and conflict management.
+Monitor: Throughout the project, the team monitors changes in the stakeholder community, assesses the effectiveness of the current engagement strategy, and adjusts as needed. The degree of stakeholder satisfaction is often determined through direct conversation, reviews, and surveys.
+{b}Key Project Management Processes (from Process Groups: A Practice Guide):{b}
+Identify Stakeholders (4.2): The process of identifying project stakeholders regularly and analyzing and documenting relevant information about them. It enables the project team to identify the appropriate focus for engagement.
+Plan Stakeholder Engagement (5.24): The process of developing approaches to involve project stakeholders based on their needs, expectations, interests, and potential impact. This provides an actionable plan to interact effectively with them.
+Manage Stakeholder Engagement (6.10): The process of communicating and working with stakeholders to meet their needs, address issues, and foster appropriate involvement. This allows the project manager to increase support and minimize resistance.
+Monitor Stakeholder Engagement (7.12): The process of monitoring stakeholder relationships and tailoring strategies by modifying engagement plans. This maintains the efficiency and effectiveness of engagement activities.

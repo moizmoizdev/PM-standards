@@ -1,0 +1,20 @@
+{b}Purpose of the Risk Practice:{b}
+The purpose of the risk practice is to identify, assess, and control uncertainties that would affect the project’s objectives, and, as a result, improve the ability of the project to succeed.
+{b}Key Concepts:{b}
+Risk: An uncertain event or set of events that, should they occur, will affect the achievement of objectives. A risk is measured by a combination of the probability of a perceived threat or opportunity occurring and the magnitude of its impact on objectives.
+Risk Appetite: The amount and type of risk that the business is willing to take in pursuit of its objectives.
+Risk Tolerance: A measurable threshold representing the tolerable range of outcomes for each objective ‘at risk’.
+Risk Budget: A sum of money to fund specific management responses to the project’s threats and opportunities.
+Risk Owner: The person assigned to take responsibility for responding to a risk.
+Risk Action Owner (Actionee): The person who is the nominated owner of agreed actions to respond to a risk.
+{b}The PRINCE2 Technique for Risk Management:{b}
+PRINCE2 recommends a five-step risk management procedure:
+{b}Identify:{b} This step involves defining the context and objectives to understand what is at risk, followed by identifying the specific threats and opportunities. A useful way of expressing risk is to consider the risk cause (the source of the risk), the risk event (the area of uncertainty), and the risk effect (the impact on objectives).
+{b}Assess:{b} This step involves prioritizing risks and assessing the combined risk profile. This includes estimating the probability, impact, proximity, and velocity of each risk. A risk matrix is often used to summarize the set of risks and their estimations.
+{b}Plan:{b} This step involves identifying and evaluating appropriate risk responses to remove or reduce threats and to maximize opportunities. Responses include:
+For Threats: Avoid, Reduce, Transfer, Accept, Prepare contingent plans.
+For Opportunities: Exploit, Enhance, Share, Accept, Prepare contingent plans.
+The goal is to balance the cost of the response against the change in the residual risk (the risk remaining after the response).
+{b}Implement:{b} This step ensures that planned risk responses are actioned. It is critical that responsibilities for the risk owner and risk action owner are clearly identified and agreed upon. The effectiveness of the actions is reviewed, and corrective actions are taken where needed.
+{b}Communicate:{b} Communication is undertaken continually throughout the procedure. This ensures information related to threats and opportunities is communicated both within the project ecosystem and externally to stakeholders. Risks are communicated in checkpoint reports, highlight reports, end stage reports, and exception reports.
+{b}{

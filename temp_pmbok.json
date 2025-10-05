@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "name": "PMBOK Guide 7th Edition - Complete Guide",
+      "records": [
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "Introduction",
+          "subsubtopic": null,
+          "content": "In the 1960s, project management became more serious and recognized as a specialty in the US, and people started organizing conferences and events around it. In 1969, a few of those people formed a not-for-profit organization named Project Management Institute (PMI)."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The certification program",
+          "subsubtopic": null,
+          "content": "Besides organizing events and bringing project managers together, in 1984, PMI also created a certification program called Project Management Professional (PMP), which is still one of the best-known and most desirable certifications in this domain."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The structured guide",
+          "subsubtopic": null,
+          "content": "The success of the PMP exam, which was formed around general project management knowledge, encouraged PMI to document and structure that knowledge. The result was A Guide to the Project Management Body of Knowledge, or the PMBOK Guide for short. It became one of the main resources for the PMP exam, although not the only one.\n\nFollowing on from a white paper in 1987, the first edition was published in 1996, and since then, there has been a new edition every four or five years:\n\n1996: PMBOK Guide\n2000: PMBOK Guide, 2000 edition\n2004: PMBOK Guide, 3rd edition\n2008: PMBOK Guide, 4th edition\n2013: PMBOK Guide, 5th edition\n2017: PMBOK Guide, 6th edition\n2021: PMBOK Guide, 7th edition\n\nThe first edition described project management with a set of 37 processes, each with various inputs, a few tools and techniques, and certain outputs, along with some extra information about the context within which projects are run. Those processes were categorized in two different ways:\n\nProcess Groups: These categorize the processes based on their role in the overall/typical project management life cycle.\n- Initiating\n- Planning\n- Executing\n- Controlling\n- Closing\n\nKnowledge Areas: These categorize the processes based on their subject.\n- Integration\n- Scope\n- Time\n- Cost\n- Quality\n- Human resource\n- Communications\n- Risk\n- Procurement\n\nThe next five editions followed the same structure and refined the content. The number of processes grew from 37 to 49, which was mainly a result of breaking down the existing ones into more detailed processes. The communications management knowledge area was later divided into communications management and stakeholder management. Some of the elements were renamed to be clearer, more precise, more general, etc.; for example, human resource management became resource management. Finally, the whole guide grew from 176 pages in the first edition to 756 pages in the sixth edition.\n\nThe seventh edition, on the other hand, was written from scratch, and with a principle-based approach instead of the process-based one described above. It is more inclusive of different projects and is only 274 pages long."
+        }
+      ]
+    }
+  }
+}

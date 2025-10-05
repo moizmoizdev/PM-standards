@@ -1,0 +1,25 @@
+{b}Similarities (Common Practices and Overlapping Guidance){b}
+Despite their different structures and terminologies, all three standards share a common foundation of core project management concepts.
+{b}Core Definitions of Project and Project Management{b}
+All three standards agree on the fundamental definition of a project as a temporary endeavor.
+{b}ISO:{b} "temporary endeavour to achieve one or more defined objectives."
+{b}PRINCE2:{b} "a temporary organization that is created for the purpose of delivering one or more business products."
+{b}PMI:{b} "a temporary endeavor undertaken to create a unique product, service, or result."
+They all define project management as the act of applying knowledge, activities, or methods to direct and control a project to achieve its objectives.
+{b}Business Justification and Value{b}
+All three standards anchor the existence of a project in its ability to deliver value and maintain a valid business justification.
+The concept of a {b}Business Case{b} is central to all three. It serves as the documented justification for the project, outlining the balance of costs, benefits, and risks.
+They all emphasize that this justification must be reviewed and revalidated throughout the project's life cycle to ensure the project remains desirable, viable, and achievable.
+{b}Stakeholder Focus{b}
+Identifying, analyzing, and engaging with stakeholders is a critical and continuous activity across all three standards.
+They all recognize that stakeholders can be internal or external and that their needs, expectations, and influence must be managed to ensure project success.
+{b}Core Management Activities{b}
+All standards cover a common set of essential project management activities or practices, even if they are grouped differently. These universally recognized areas include:
+{b}Planning:{b} Defining the scope, schedule, cost, resources, and methods for achieving project objectives.
+{b}Risk Management:{b} Identifying, assessing, and controlling uncertainty (both threats and opportunities).
+{b}Quality Management:{b} Ensuring that deliverables are fit for purpose and meet specified requirements.
+{b}Change Control:{b} Managing modifications to the project's baselines in a controlled manner.
+{b}Communication:{b} Ensuring timely and appropriate flow of information among stakeholders.
+{b}Concept of Tailoring{b}
+A strong point of convergence is the explicit requirement to tailor the project management approach.
+All three standards state that their frameworks, methods, or guidance are not one-size-fits-all and must be adapted to the specific context of the project, including its size, complexity, environment, and importance.

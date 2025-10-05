@@ -1,0 +1,23 @@
+{b}Definition of a Stakeholder:{b}
+A stakeholder is defined as a "person, group or organization that has interests in, or can affect, be affected by, or perceive itself to be affected by, any aspect of the project, programme or portfolio."
+{b}Core Context and Guiding Concepts (from ISO 21500):{b}
+Stakeholder engagement is one of the core underlying concepts that should guide all project, programme, and portfolio management activities. The standard emphasizes that "stakeholder engagement and communications" is critical to ensure that deliverables, outputs, and outcomes meet the agreed-upon needs of the sponsoring organization and are accepted by stakeholders. Stakeholders are shown as an integral part of the organizational environment, directly influencing and being influenced by the project's governance and execution.
+{b}The Stakeholder Engagement Practice (from ISO 21502):{b}
+{b}Purpose of Stakeholder Engagement (7.12.1 Overview):{b}
+The purpose of stakeholder engagement is to enable the needs, interests, and concerns of stakeholders to be identified, understood, and addressed sufficiently to enable the project objectives to be met. Project stakeholders should be identified, analyzed, documented, and engaged throughout the project. The practice includes planned activities to identify and address stakeholder concerns and to employ their support through communication.
+{b}Identifying Stakeholders (7.12.2):{b}
+Stakeholders should be identified along with relevant information regarding their interests and involvement. This information can include their levels of interest, influence, expectations, and needs. Stakeholders can be internal or external to the project and exist at varying authority levels. The standard provides examples of stakeholders, including:
+The sponsoring organization and project team.
+Customers.
+Partners and suppliers.
+Special interest or pressure groups.
+Regulatory bodies.
+Finance providers.
+Shareholders.
+Relevant external third parties.
+{b}Engaging Stakeholders (7.12.3):{b}
+The plan for engaging stakeholders should take into account the identified stakeholders, the project plan, and other project documentation. Engagement activities can include:
+Identifying stakeholder concerns.
+Resolving issues.
+Specific activities, such as communications, aimed at achieving an appropriate level of key stakeholder involvement in decision-making or other critical project activities.
+Stakeholder issues should be resolved through diplomacy, negotiation, and, if necessary, escalation to a higher-level authority in accordance with defined procedures. Resolving stakeholder issues may result in formal change requests.

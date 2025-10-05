@@ -1,0 +1,27 @@
+{b}What is a Project?{b}
+A project is defined as "a temporary organization that is created for the purpose of delivering one or more business products according to an agreed business case." This definition underpins the method's focus on clear purpose and justification.
+{b}Five Characteristics of a Project:{b}
+PRINCE2 identifies five inherent characteristics that necessitate project management and differentiate projects from ongoing operations. These characteristics also introduce challenges that the method aims to address:
+Change: Projects are the primary vehicle for introducing purposeful change within organizations, moving them from a current state to a desired target state.
+Temporary: Projects have a finite lifespan with a defined start and end. This means the project organization is temporary and will disband upon completion, or earlier if justification is lost.
+Cross-functional: Projects typically involve a diverse team of individuals from different functional areas or even multiple organizations (e.g., customers and suppliers) working together temporarily. This diversity can lead to inherent stresses and different perspectives and motivations among stakeholders (customers, suppliers, internal departments).
+Unique: Every project is unique in some way, whether it's the team, customer, supplier, product, location, or timeframe. This uniqueness means solutions cannot simply be copied from previous endeavors.
+Uncertainty: Projects inherently carry higher levels of uncertainty and risk compared to routine operations. These uncertainties manifest as both threats (negative impacts) and opportunities (positive impacts) to project objectives.
+{b}What is Project Management?{b}
+Project management is "the application of methods, tools, techniques, and competencies to enable the project to meet its objectives." It's about planning, delegating, monitoring, and controlling all aspects of the project, as well as motivating those involved, to achieve objectives within expected performance targets.
+{b}Project Performance Targets:{b}
+PRINCE2 emphasizes managing projects against seven performance targets, which are continually balanced and monitored:
+Benefits: The measurable improvements that justify the project's investment. The "why" of the project.
+Costs: Ensuring the project remains within its allocated budget.
+Time: Delivering within agreed-upon schedules.
+Quality: Ensuring products meet specified fitness for purpose and quality expectations.
+Scope: Defining precisely what the project will deliver, to prevent uncontrolled expansion.
+Sustainability: Adhering to environmental, social, and governance (ESG) objectives and commitments.
+Risk: Managing uncertainties, acknowledging the business's risk appetite.
+{b}The Five Integrated Elements of PRINCE2:{b}
+The PRINCE2 method is composed of five interconnected elements:
+Principles: Guiding obligations that ensure the project is genuinely managed using PRINCE2.
+People: Focuses on the human element – those working on the project and those impacted by it, emphasizing relationships and capabilities.
+Practices: Essential aspects of project management (e.g., Business Case, Risk, Quality, Plans) applied consistently throughout the lifecycle.
+Processes: The structured flow of activities throughout the project lifecycle (from starting up to closing a project).
+Project Context: The specific environment (organizational, commercial, delivery method, sustainability, scale) in which the project operates, influencing how PRINCE2 is tailored.

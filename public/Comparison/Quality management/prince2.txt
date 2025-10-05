@@ -1,0 +1,18 @@
+{b}Purpose of the Quality Practice:{b}
+The purpose of the quality practice is to document the user’s requirements of the project products and to establish the means by which they will be met.
+{b}Key Concepts:{b}
+Quality: The degree to which a set of inherent characteristics of a product, service, process, person, organization, system, or resource fulfils its requirements.
+User's Quality Expectations: A statement about the quality expected from the project product, captured in the project product description.
+Quality Specifications: A description of the quality measures that will be applied by those performing quality control and the levels that a finished product must meet.
+Acceptance Criteria: A prioritized list of criteria that the project product must meet before the user will accept it.
+Quality Tolerance: The permissible deviation in a product’s quality that is allowed before the deviation needs to be escalated to the next level of management.
+{b}PRINCE2's Approach to Quality:{b}
+PRINCE2's approach to quality is product-based and systematic, focusing on three core elements:
+{b}Quality Planning:{b} This involves documenting the user's quality expectations in the project product description, and from this, creating:
+Product Descriptions: Detailing the quality specifications for each product and associated quality tolerances.
+Quality Management Approach: Describing the supporting techniques, standards, roles, and responsibilities for achieving the required quality.
+Quality planning also involves distinguishing between functional requirements (how a product must perform) and non-functional requirements (inherent characteristics like security or reliability).
+{b}Quality Control:{b} This comprises the procedures to monitor the specific products of a project to determine whether they comply with relevant standards. Key activities and artifacts include:
+Quality Register: A component of the project log that identifies and tracks all planned and completed quality control activities. It provides a record of quality checks and their results (pass/fail).
+Off-specification: If a product cannot pass a quality control activity, the failure is reviewed against quality tolerances. Exceptions and off-specifications are addressed using the issue management technique.
+{b}Quality Assurance:{b} A planned and systematic activity that provides confidence that products will meet their defined quality specifications. Quality assurance activities are typically performed by the business, ensuring they are independent of the project team. It is distinct from project assurance, which is the responsibility of the Project Board.

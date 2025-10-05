@@ -1,0 +1,33 @@
+{b}PMI's{b} standards address risk management as both a fundamental principle and a set of detailed processes aimed at optimizing project outcomes by proactively managing uncertainty.
+{b}The Principle: "Optimize Risk Responses"{b}
+This principle states that risks are continually evaluated, and both opportunities and threats are addressed to maximize positive impacts and minimize negative impacts to the project and its outcomes. Key aspects of this principle include:
+{b}Risk Nature:{b} Individual and overall risks can impact projects. Risks can be positive (opportunities) or negative (threats).
+{b}Continuous Management:{b} Risks are addressed continually throughout the project.
+{b}Organizational Context:{b} The organization's risk attitude, appetite, and threshold influence how risk is addressed.
+{b}Appropriate Responses:{b} Risk responses should be appropriate for the significance of the risk, cost-effective, realistic, agreed to by stakeholders, and owned by a responsible person.
+{b}The Uncertainty Performance Domain (PMBOK 7):{b}
+This domain addresses activities and functions associated with risk and uncertainty. It covers general uncertainty, ambiguity, complexity, volatility, and risk.
+{b}Risk:{b} An uncertain event or condition that, if it occurs, has a positive or negative effect on one or more project objectives. Negative risks are called {b}threats{b}, and positive risks are called {b}opportunities{b}.
+{b}Overall Project Risk:{b} The effect of uncertainty on the project as a whole, arising from all sources of uncertainty. Responses to overall project risk are applied to the project as a whole rather than a specific event.
+{b}Risk Response Strategies:{b}
+The standard outlines strategies for dealing with threats and opportunities:
+{b}Strategies for Threats:{b}
+{b}Avoid:{b} The project team acts to eliminate the threat or protect the project from its impact.
+{b}Escalate:{b} Appropriate when a threat is outside the scope of the project or the response exceeds the project manager's authority.
+{b}Transfer:{b} Involves shifting ownership of a threat to a third party to manage the risk and bear the impact if it occurs.
+{b}Mitigate:{b} Action is taken to reduce the probability of occurrence and/or impact of a threat.
+{b}Accept:{b} Acknowledges the existence of a threat, but no proactive action is planned. Can be active (e.g., establishing a contingency reserve) or passive.
+{b}Strategies for Opportunities:{b}
+{b}Exploit:{b} A response strategy whereby the project team acts to ensure that an opportunity occurs.
+{b}Escalate:{b} Used when the project team agrees an opportunity is outside the scope of the project.
+{b}Share:{b} Involves allocating ownership of an opportunity to a third party who is best able to capture its benefit.
+{b}Enhance:{b} The project team acts to increase the probability of occurrence or impact of an opportunity.
+{b}Accept:{b} Acknowledges its existence but no proactive action is planned.
+{b}The Planning Process Group (Process Groups Guide):{b}
+This provides a more detailed, process-oriented view of risk management:
+{b}Plan Risk Management:{b} The process of defining how to conduct risk management activities. The output is the {b}Risk Management Plan{b}.
+{b}Identify Risks:{b} The process of identifying individual project risks as well as sources of overall project risk and documenting their characteristics. The primary output is the {b}Risk Register{b}.
+Perform Qualitative Risk Analysis: The process of prioritizing individual project risks by assessing their probability of occurrence and impact.
+Perform Quantitative Risk Analysis: The process of numerically analyzing the combined effect of identified risks on overall project objectives.
+Plan Risk Responses: The process of developing options, selecting strategies, and agreeing on actions to address risk exposure.
+The Risk Register and Risk Report are key artifacts used to document and communicate risk information throughout the project.

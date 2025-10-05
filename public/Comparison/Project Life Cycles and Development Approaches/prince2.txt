@@ -1,0 +1,32 @@
+PRINCE2 provides a flexible framework for structuring a project's progression through distinct phases, known as stages, and supports various delivery methods.
+{b}Project Life Cycle (1.7.1):{b}
+The project life cycle is defined as "{b}the series of phases that a project passes through from its start to its completion{b}." It forms the basic framework for managing the project, regardless of the specific work involved. Phases can be sequential, iterative, or overlapping.
+{b}Development Life Cycles (1.7.1):{b}
+Within a project life cycle, there are typically one or more phases associated with the development of the product, service, or result. These are referred to as development life cycles and can be:
+Predictive (Waterfall): Project scope, time, and cost are determined early, and changes are carefully managed.
+Adaptive (Agile/Change-Driven): Scope is outlined and agreed before each iteration. Time and cost estimates are routinely modified as understanding of the product increases.
+Iterative: Product scope is generally determined early, but development proceeds through repeated cycles, with time and cost estimates evolving.
+Incremental: Deliverables are produced through a series of iterations, each adding functionality, within a predetermined time frame. The product is considered complete only after the final iteration.
+Hybrid: A combination of predictive and adaptive elements. Well-known/fixed requirements follow a predictive cycle, while evolving elements follow an adaptive cycle.
+{b}Project Phase (1.7.2):{b}
+A project phase is "{b}a collection of logically related project activities that culminates in the completion of one or more deliverables{b}." Phases are characterized by attributes such as name, number, and duration. They have entrance criteria (e.g., specified approvals, completed documents) and exit criteria (e.g., documented approvals, completed deliverables). Examples of phase names include Concept development, Feasibility study, Design, Prototype, Build, Test, Transition, Commissioning, Milestone review, and Lessons learned.
+{b}Phase Gate (1.7.3):{b}
+A {b}phase gate{b} (or review) is held at the end of a phase. The project's performance and progress are compared against project and business documents (e.g., Project Business Case, Project Charter, Project Management Plan, Benefits Management Plan). Decisions are made at this point to: continue to the next phase (possibly with modification), end the project, or remain in the current phase (or repeat elements of it). Using multiple phases provides better insight, allows for corrective/preventive actions, and aids in reassessing performance.
+{b}Manage by Stages Principle (2.5 & 7.2.3):{b}
+This core PRINCE2 principle dictates that a project is "{b}planned, monitored, and controlled on a stage-by-stage basis{b}." Every PRINCE2 project must have at least an initiation stage and one further delivery stage. This approach ensures:
+Adaptability: Flexibility to changes in project or business context.
+Control Points: Provides regular review and decision points for the Project Board to assess viability.
+Detailed Planning: Ensures key decisions are made before detailed work commences.
+Clarification: Helps clarify impacts of external influences (e.g., budget cycles, legislation).
+Delegation: Facilitates "manage by exception" by delegating authority to the Project Manager for each stage within defined tolerances.
+{b}Factors for Determining Stages (7.2.3):{b}
+The choice of appropriate stage length depends on:
+Minimizing Risk Exposure: Shorter stages offer more control over high-risk projects.
+Size and Complexity: Shorter stages provide more control for complex projects, while longer stages reduce senior management overhead for simpler ones.
+Planning Horizon: Aligning stage length with the period for which reliable estimates can be made.
+Appropriate Decision Points: Aligning stage boundaries with critical business or technical decisions.
+Alignment with Programme Activities: Coordinating project stages with programme tranches or milestones.
+{b}Delivery Method and Planning (1.5.3 & 7.4.3):{b}
+PRINCE2 does not prescribe a specific delivery method, but its planning technique supports various approaches:
+Linear-sequential projects: Upfront planning is emphasized, with detailed estimates for products and activities, assuming well-understood scope.
+Iterative-incremental projects: Focuses on fixed time/cost iterations with flexible scope, delivering increments quickly and refining iteratively. Planning involves setting tolerances for iterations, defining products via user stories/epics/product backlogs, and collaborative planning tools.

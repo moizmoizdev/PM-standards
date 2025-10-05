@@ -1,0 +1,19 @@
+{b}Purpose of Risk Management:{b}
+The purpose of risk management is to increase the likelihood of achieving the project's objectives. It involves identifying, assessing, treating, controlling, and responding to risks throughout the project life cycle. Identified risks and options for addressing them should be an integrated part of the project's plan.
+{b}Key Concepts:{b}
+Risk: An uncertain event or condition that, if it occurs, can have either a positive (opportunity) or negative (threat) impact on the project’s objectives.
+Responsibility: Identifying risks is the responsibility of all members of the project team and should involve determining potential sources of risk and their characteristics.
+{b}The Risk Management Process:{b}
+ISO 21502 outlines a structured approach to managing risk, which includes the following key activities:
+{b}Identifying Risk:{b} Risks can be identified throughout the project life cycle, and previously identified risks can change or reoccur. Risks should be recorded when identified and can originate from various sources, either internal or external to the project. Each risk should have an assigned owner. The record of risks can be referred to as a "risk register" or "risk log."
+{b}Assessing Risk:{b} Each risk should be assessed for its probability (likelihood), consequence (impact), and proximity, and then prioritized for further action. Interrelations and dependencies between individual risks should also be assessed.
+{b}Treating Risk:{b} This involves developing options and actions to enhance opportunities and reduce threats to the project. Risk treatment measures can include, but are not limited to:
+Accept: Acknowledge the risk without taking action.
+Avoid: Eliminate the threat or cause of risk.
+Mitigate: Reduce the probability or impact of a threat.
+Transfer: Shift the risk to a third party.
+Use contingency: Allocate provisions for the risk.
+Exploit: Ensure an opportunity occurs.
+Enhance: Increase the probability or impact of an opportunity.
+Actions taken to treat a risk should be appropriate, cost-effective, timely, realistic, and understood by the parties involved.
+{b}Controlling Risk:{b} This involves ensuring that responses to negative risks minimize disruption while responses to positive risks maximize beneficial impact. It includes determining if the risk responses are undertaken and whether they have the desired effect. In controlling risk, management information can be reviewed, including the relative priority of risks, progress data, project plans, and change requests.

@@ -1,0 +1,18 @@
+PMI's standards address team management through the Team Performance Domain and the principle of creating a Collaborative Project Team Environment, as well as through specific processes in the Process Groups guide.
+{b}The Principle: "Create a Collaborative Project Team Environment"{b}
+This principle states that project teams are made up of individuals who wield diverse skills, knowledge, and experience. Project teams that work collaboratively can accomplish a shared objective more effectively and efficiently than individuals working on their own. This involves:
+Team Agreements: Establishing behavioral parameters and working norms.
+Organizational Structures: Using structures that help coordinate individual effort.
+Processes: Defining processes that enable completion of tasks, such as using a work breakdown structure (WBS) or backlog.
+{b}The Team Performance Domain (PMBOK 7):{b}
+This performance domain addresses activities and functions associated with the people who are responsible for producing project deliverables that realize business outcomes. It entails establishing the culture and environment that enables a collection of diverse individuals to evolve into a high-performing project team.
+{b}Project Team Management and Leadership:{b}
+Centralized Management: Where management activities are centralized, accountability is usually assigned to one individual, such as the project manager.
+Distributed Management: Management activities are shared among the team, and team members are responsible for completing the work. This may involve a facilitator role rather than a designated project manager.
+{b}Project Team Culture:{b} Each project team develops its own culture. The project manager is key in establishing a safe, respectful, nonjudgmental environment that allows the team to communicate openly. This is accomplished by modeling desired behaviors such as transparency, integrity, respect, positive discourse, support, and courage.
+{b}High-Performing Project Teams:{b} Key factors contributing to high-performing teams include open communication, shared understanding, shared ownership, trust, collaboration, adaptability, resilience, empowerment, and recognition.
+{b}The Process Groups (Process Groups Guide):{b}
+The Executing Process Group contains specific processes for managing the project team:
+{b}Acquire Resources:{b} The process of obtaining team members, facilities, equipment, materials, supplies, and other resources necessary to complete project work. This outlines and guides the selection of resources and assigns them to their respective activities.
+{b}Develop Team:{b} The process of improving competencies, team member interaction, and the overall team environment to enhance project performance. The key benefit is that it results in improved teamwork, enhanced interpersonal skills and competencies, motivated employees, reduced attrition, and improved overall project performance. This can involve techniques like colocation, virtual teams, communication technology, and conflict management.
+{b}Manage Team:{b} The process of tracking team member performance, providing feedback, resolving issues, and managing team changes to optimize project performance. The key benefit of this process is that it influences team behavior, manages conflict, and resolves issues.

@@ -1,0 +1,26 @@
+{b}Purpose of Quality Management:{b}
+The purpose of quality management is to increase the likelihood that outputs are fit for purpose or use. Quality should be an integrated part of the project's plan. Quality management includes identifying quality requirements with acceptance criteria and means of verification and validation, the standards to be used, and the deliverables of the project.
+{b}Key Concepts:{b}
+Quality Management Plan: A plan that documents how the project would conform to quality requirements and standards. It includes processes for quality assurance and quality control.
+Quality Requirements and Standards: These are identified by stakeholders, organizational quality policies, and standards. They apply to internal, external, interim, final, tangible, and intangible deliverables and should be documented.
+Stakeholder Information: Project stakeholders should be informed about the likelihood that the project will meet its objectives and that deliverables will conform to quality requirements and standards, thereby enabling the realization of expected benefits.
+{b}The Quality Management Process:{b}
+ISO 21502 outlines a structured approach to managing quality, which includes the following key activities:
+{b}Planning Quality:{b} This activity determines the quality requirements, metrics, and standards that are applicable to the project and its deliverables, and how those requirements are to be met. It includes:
+Determining and agreeing on the objectives and relevant quality standards to be achieved.
+Documenting quality metrics and acceptance criteria for deliverables.
+Establishing the tools, procedures, techniques, and resources needed.
+Determining methods to implement planned systematic quality activities.
+Developing the defined approach to managing quality, including reviews, responsibilities, and participants.
+Consolidating this information in the quality management plan.
+{b}Assuring Quality:{b} This activity facilitates and enables conformity to applicable performance requirements, quality processes, and standards. It includes:
+Communicating the objectives and relevant standards to be used and verifying that they are used.
+Verifying conformity to the defined management approach for quality.
+Verifying that the established tools, procedures, techniques, and resources are being used.
+Conforming to the planned approach to verify the output against validated requirements.
+Performing audits by people who are independent of the project manager and team.
+{b}Controlling Quality:{b} This activity is used to determine whether the project's objectives, quality requirements, metrics, and standards are being met, and to identify causes of and ways to eliminate unsatisfactory performance. Quality control is applied to the project’s deliverables and outputs, and includes activities such as:
+Verifying that deliverables and outputs meet quality requirements by detecting defects.
+Analyzing possible causes of defects.
+Determining preventive actions and change requests.
+Communicating corrective actions and change requests.

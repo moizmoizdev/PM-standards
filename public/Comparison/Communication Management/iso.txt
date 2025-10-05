@@ -1,0 +1,16 @@
+{b}Purpose of Communication Management:{b}
+The purpose of communication management is to enable stakeholder interactions that are effective and likely to contribute to the successful delivery of the project's outcomes and the successful realization of benefits. The success or failure of a project can depend on the effectiveness of communications and the degree to which the communications engage the stakeholders.
+{b}The Communication Management Process:{b}
+ISO 21502 outlines a structured approach to managing communications, which includes the following key activities:
+{b}Planning Communication:{b} Communications should be planned to match stakeholders' needs and expectations and should be documented. This includes defining the information needs of stakeholders, including the level of information and frequency of communication. Planning should focus on supporting the project’s objectives by:
+Increasing understanding and cooperation among various stakeholders.
+Providing timely, accurate, and unbiased information.
+Designing communication to minimize risk.
+Factors such as geographically dispersed stakeholders, languages, cultures, and organizational affiliation should be considered.
+{b}Distributing Information:{b} Communications should be distributed using the agreed media, messages, and timing in response to stakeholders' needs and expectations. Information distribution should provide for adequate levels of confidentiality, security, and accuracy.
+{b}Monitoring the Impact of Communications:{b} The impact of communications should be monitored, assessed, and responded to. The communications plan should be adjusted, if needed, to achieve a successful outcome for the project. Monitoring focuses on the impact of communications on:
+Increasing understanding and cooperation.
+Providing timely, accurate, and unbiased information.
+Resolving communication issues to minimize risk.
+{b}Reporting vs. Communication:{b}
+The standards distinguish between reporting and communication. Reporting focuses on providing the status, analysis of variances, and forecasts of future performance for the project. Communication focuses on meeting the information needs to enable stakeholder interactions that are effective and contribute to the successful delivery of the project's outcomes.

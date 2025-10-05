@@ -1,0 +1,23 @@
+PMI's standards emphasize communication as an essential skill and a set of processes crucial for stakeholder engagement and overall project success.
+{b}Communication in the Team Performance Domain (PMBOK 7):{b}
+Effective leadership and team performance are built upon a foundation of strong communication. Key skills include:
+Active Listening: Techniques that involve acknowledging, clarifying, confirming, and removing barriers to comprehension.
+Feedback: Providing information about reactions to communications, deliverables, or situations to support interactive communication.
+Presentations: Formal delivery of information to relevant stakeholders.
+{b}Communication Models (Process Groups Guide):{b}
+The guide describes various models to represent the communication process:
+Sender-receiver models: Incorporate feedback loops to remove barriers to effective communication.
+Choice of media: Making decisions on whether to communicate in writing vs. orally, or use push/pull options and appropriate technology.
+Writing style: Using appropriate voice, sentence structure, and word choice.
+{b}The Planning and Executing Process Groups (Process Groups Guide):{b}
+These groups contain specific processes for managing communication:
+{b}Plan Communications Management:{b} The process of developing an appropriate approach and plan for project communication activities based on the information needs of each stakeholder, available organizational assets, and the needs of the project. The primary output is the Communications Management Plan. This plan describes how project communications will be planned, structured, implemented, and monitored for effectiveness. It contains information such as:
+Stakeholder communication requirements.
+Information to be communicated (language, format, content, level of detail).
+Escalation processes.
+Reason for, and frequency of, information distribution.
+Person responsible for communicating and authorizing release of confidential information.
+Methods or technologies used to convey information.
+Resources allocated for communication activities.
+{b}Manage Communications:{b} The process of ensuring timely and appropriate collection, creation, distribution, storage, retrieval, management, monitoring, and the ultimate disposition of project information. The key benefit is enabling an efficient and effective information flow. The primary output is Project Communications, which includes performance reports, deliverable status, and other information required by stakeholders.
+{b}Monitor Communications:{b} The process of ensuring the information needs of the project and its stakeholders are met. The key benefit is the optimal information flow as defined in the communications management plan and the stakeholder engagement plan. This process determines if the planned communications have had the desired effect of increasing or maintaining stakeholder support.

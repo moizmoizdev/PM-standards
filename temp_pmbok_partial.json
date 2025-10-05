@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "name": "PMBOK Guide 7th Edition - Complete Guide",
+      "records": [
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "Introduction",
+          "subsubtopic": null,
+          "content": "In the 1960s, project management became more serious and recognized as a specialty in the US, and people started organizing conferences and events around it. In 1969, a few of those people formed a not-for-profit organization named Project Management Institute (PMI)."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The certification program",
+          "subsubtopic": null,
+          "content": "Besides organizing events and bringing project managers together, in 1984, PMI also created a certification program called Project Management Professional (PMP), which is still one of the best-known and most desirable certifications in this domain."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The structured guide",
+          "subsubtopic": null,
+          "content": "The success of the PMP exam, which was formed around general project management knowledge, encouraged PMI to document and structure that knowledge. The result was A Guide to the Project Management Body of Knowledge, or the PMBOK Guide for short. It became one of the main resources for the PMP exam, although not the only one.\\n\\nFollowing on from a white paper in 1987, the first edition was published in 1996, and since then, there has been a new edition every four or five years:\\n\\n1996: PMBOK Guide\\n2000: PMBOK Guide, 2000 edition\\n2004: PMBOK Guide, 3rd edition\\n2008: PMBOK Guide, 4th edition\\n2013: PMBOK Guide, 5th edition\\n2017: PMBOK Guide, 6th edition\\n2021: PMBOK Guide, 7th edition\\n\\nThe first edition described project management with a set of 37 processes, each with various inputs, a few tools and techniques, and certain outputs, along with some extra information about the context within which projects are run. Those processes were categorized in two different ways:\\n\\nProcess Groups: These categorize the processes based on their role in the overall/typical project management life cycle.\\n- Initiating\\n- Planning\\n- Executing\\n- Controlling\\n- Closing\\n\\nKnowledge Areas: These categorize the processes based on their subject.\\n- Integration\\n- Scope\\n- Time\\n- Cost\\n- Quality\\n- Human resource\\n- Communications\\n- Risk\\n- Procurement\\n\\nThe next five editions followed the same structure and refined the content. The number of processes grew from 37 to 49, which was mainly a result of breaking down the existing ones into more detailed processes. The communications management knowledge area was later divided into communications management and stakeholder management. Some of the elements were renamed to be clearer, more precise, more general, etc.; for example, human resource management became resource management. Finally, the whole guide grew from 176 pages in the first edition to 756 pages in the sixth edition.\\n\\nThe seventh edition, on the other hand, was written from scratch, and with a principle-based approach instead of the process-based one described above. It is more inclusive of different projects and is only 274 pages long."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The extension of the family",
+          "subsubtopic": null,
+          "content": "Based on the success of the PMBOK Guide and the PMP exam, PMI continued expanding in the following ways:\\n\\nCertification programs:\\n- Certified Associate in Project Management (CAPM)\\n- Disciplined Agile Coach (DAC)\\n- Disciplined Agile Scrum Master (DASM)\\n- Disciplined Agile Senior Scrum Master (DASSM)\\n- Disciplined Agile Value Stream Consultant (DAVSC)\\n- PMI Agile Certified Practitioner (PMI-ACP)\\n- PMI Professional in Business Analysis (PMI-PBA)\\n- PMI Project Management Ready\\n- PMI Risk Management Professional (PMI-RMP)\\n- PMI Scheduling Professional (PMI-SP)\\n- Portfolio Management Professional (PfMP)\\n- Program Management Professional (PgMP)\\n\\nFundamental standards:\\n- The PMI Guide to Business Analysis\\n- The Standard for Earned Value Management\\n- The Standard for Organizational Project Management\\n- The Standard for Portfolio Management\\n- The Standard for Program Management\\n- The Standard for Risk Management in Portfolios, Programs, and Projects\\n\\nPractice standards:\\n- Practice Standard for Project Configuration Management\\n- Practice Standard for Project Estimating\\n- Practice Standard for Scheduling\\n- Practice Standard for Work Breakdown Structures\\n- Project Manager Competency Development Framework\\n\\nPractice guides:\\n- Agile Practice Guide\\n- Benefits Realization Management: A Practice Guide\\n- Business Analysis for Practitioners: A Practice Guide\\n- Governance of Portfolios, Programs, and Projects: A Practice Guide\\n- Managing Change in Organizations: A Practice Guide\\n- Navigating Complexity: A Practice Guide\\n- Process Groups: A Practice Guide\\n- Requirements Management: A Practice Guide\\n\\nBesides the PMI-ACP certification program, none of these attained any level of popularity comparable to the PMP exam and the PMBOK Guide."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The nature of the PMBOK Guide",
+          "subsubtopic": null,
+          "content": "We can categorize any resource about project management in one of the following groups:\\n\\nMethodologies, which give you a path through the project.\\nGuides, which help you to be more efficient in using the methodologies.\\n\\nWhat you need first and foremost is a methodology; and then after implementing a methodology, you can use the guides to enrich it.\\n\\nThe PMBOK Guide is designed to be a guide rather than a methodology. However, the process-based nature of the older versions was confusing for many and led them to think of the guide as a methodology, but when they tried to use it as such, it never gave good results. That is why the old versions had a disclaimer in their introductions explaining that they are not methodologies and that people need to select and use a methodology in parallel with it. One of our goals in the 7th edition was to prevent this from happening, and I think we succeeded, in that the new, principle-based approach of PMBOK 7 cannot be mistaken for a methodology.\\n\\nThe PMBOK Guide and its complementary resources help you to develop a better methodology by:\\n\\n- helping you interpret the system using the principles, and\\n- helping you enrich the system using the performance domains.\\n\\nIt is for these reasons that the book contains the following main chapters:\\n\\n- Understanding and Interpreting goes over how the PMBOK principles help you gain a better understanding of project management, which can be used when selecting, implementing, and using a methodology.\\n- Selecting a Methodology introduces a few methodologies to give you an idea of what it is that you need to be more effective in.\\n- Enriching the Methodology explains how the PMBOK Guide can help you enrich the methodology you have implemented."
+        },
+        {
+          "topic": "What is the PMBOK Guide?",
+          "subtopic": "The process of developing the PMBOK Guide",
+          "subsubtopic": null,
+          "content": "The PMBOK Guide and other standards in PMI follow a development process that complies with good practices for standardization according to the American National Standards Institute (ANSI) and to some degree to the International Organization for Standardization (ISO).\\n\\nThe core development team of PMBOK 7 consisted of 12 members (including this author) with different backgrounds and specialties, all of whom were responsible for the content. There was a leadership team, responsible for coordinating, reflecting the expectations of PMI in the development team, etc.\\n\\nThere were a select group of about 70 reviewers who helped by reviewing and commenting on major deliverables throughout the work. At the end, an exposure draft was made available to the public to review. More than 600 people helped by reviewing the draft and submitting comments. The development team used those comments to improve the content, and the final version was published after this."
+        }
+      ]
+    }
+  }
+}

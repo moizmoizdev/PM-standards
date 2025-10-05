@@ -1,0 +1,15 @@
+The ISO standards recognize that projects proceed through a series of phases, collectively known as a project life cycle, and employ various delivery methods to achieve their objectives.
+{b}Definition of Project Life Cycle (from ISO 21502, 3.23):{b}
+A project life cycle is a "{b}defined set of phases from the start to the end of a project{b}."
+{b}Project Phases (from ISO 21502, 4.4):{b}
+The number and names of a project's phases depend on factors like the type of project, desired governance, and anticipated risk. Phases can reflect the chosen delivery approach (e.g., predictive, iterative, incremental, adaptive, or hybrid) and may be referred to using terms like "stage," "iteration," or "release." Each phase should have a defined start and end, with specific milestones relating to decisions, key deliverables, outputs, or outcomes. Decision points, often called "gates," are essential for project governance, with criteria defined for authorizing the start of a phase. Phases can, in some cases, overlap.
+{b}Delivery Methods (from ISO 21500, 4.2 & ISO 21502, 4.1.2):{b}
+Projects undertake work to achieve specific objectives, and this work can be performed using different delivery methods, which determine how products are created.
+Linear-sequential approach (or Predictive): Each delivery step to create products occurs in sequence. Products are made available during or at the end of the project. This approach is suitable when requirements are well understood upfront.
+Iterative-incremental approach (or Adaptive/Agile): Requirements gathering, design, development/coding, and testing occur iteratively throughout the project's lifecycle. This method is often used for product development, where understanding evolves over time.
+Hybrid approach: A combination of linear-sequential and iterative-incremental approaches. For instance, a linear approach for infrastructure development combined with an iterative approach for customer service portal development.
+{b}Planning Horizon and Stages (from ISO 21502, 6.6.4 & 6.5.5):{b}
+The project life cycle and its phases are central to planning and control. An initial plan for the project, including milestones and decision points, is developed based on the chosen life cycle. As the project progresses, detailed planning is elaborated for immediate phases.
+Managing Phases: The project manager prepares for each phase by reviewing a detailed plan for the phase, governance requirements, and confirming continued project justification. Authorization is obtained to start the next phase.
+Phase Completion: At the end of each phase, the project manager confirms completion of procurements, verifies actions and unresolved issues, releases resources, archives documentation, and verifies completed/accepted outputs and outcomes, including recording lessons learned.
+ISO emphasizes that a good understanding of the context of project management and the chosen life cycle helps determine appropriate governance, management approaches, and tailoring.

@@ -1,0 +1,36 @@
+The PMI standards define the project environment through two major categories of influences: Enterprise Environmental Factors (EEFs) and Organizational Process Assets (OPAs). These originate from the environment both inside and outside the organization.
+{b}Enterprise Environmental Factors (EEFs){b}
+EEFs refer to conditions, not under the control of the project team, that influence, constrain, or direct the project. These factors may enhance or constrain project management options and have a positive or negative influence on the outcome.
+{b}EEFs Internal to the Organization:{b}
+Organizational culture, structure, and governance: Examples include vision, mission, values, beliefs, cultural norms, leadership style, hierarchy and authority relationships, organizational style, ethics, code of conduct, policies, and procedures.
+Geographic distribution of facilities and resources: Examples include factory locations and virtual teams.
+Infrastructure: Examples include existing facilities, equipment, organizational telecommunications channels, information technology hardware, availability, and capacity.
+Information technology software: Examples include scheduling software tools, configuration management systems, web interfaces, and work authorization systems.
+Resource availability: Examples include contracting and purchasing constraints, approved providers and subcontractors, and collaboration agreements.
+Employee capability: Examples include existing human resources expertise, skills, competencies, and specialized knowledge.
+{b}EEFs External to the Organization:{b}
+Marketplace conditions: Examples include competitors, market share brand recognition, and trademarks.
+Social and cultural influences and issues: Examples include political climate, codes of conduct, ethics, and perceptions.
+Legal restrictions: Examples include country or local laws and regulations related to security, data protection, business conduct, employment, and procurement.
+Commercial databases: Examples include benchmarking results, standardized cost estimating data, and industry risk study information.
+Academic research: Examples include industry studies, publications, and benchmarking results.
+Government or industry standards: Examples include regulatory agency regulations and standards related to products, production, environment, quality, and workmanship.
+Financial considerations: Examples include currency exchange rates, interest rates, inflation rates, tariffs, and geographic location.
+Physical environmental elements: Examples include working conditions, weather, and constraints.
+{b}Organizational Process Assets (OPAs){b}
+OPAs are the plans, processes, documents, templates, and knowledge repositories specific to and used by the performing organization. These assets influence the management of the project.
+{b}Plans, Processes, and Documents:{b} This category includes artifacts such as:
+Guidelines and criteria for tailoring standard processes.
+Product and project life cycles, and methods and procedures.
+Templates (e.g., project management plans, project documents, risk registers).
+Preapproved supplier lists and contract agreements.
+Change control procedures.
+Issue and defect management processes.
+Project closure guidelines or requirements.
+{b}Organizational Knowledge Repositories:{b} This category includes repositories for storing and retrieving information, such as:
+Configuration management knowledge repositories containing versions of standards, policies, and project documents.
+Financial data repositories containing information such as labor hours, incurred costs, and budgets.
+Historical information and lessons learned knowledge repositories.
+Issue and defect management data repositories.
+Data repositories for metrics on processes and products.
+Project files from previous projects.

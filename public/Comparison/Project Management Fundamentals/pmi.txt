@@ -1,0 +1,31 @@
+{b}Definition of a Project (from The Standard for Project Management):{b}
+A project is "{b}a temporary endeavor undertaken to create a unique product, service, or result{b}." Its temporary nature signifies a definite beginning and end, with projects serving as a means to drive change.
+{b}Definition of Project Management (from The Standard for Project Management):{b}
+Project management is "{b}the application of knowledge, skills, tools, and techniques to project activities to meet project requirements{b}." This is further elucidated as "{b}guiding the project work to deliver the intended outcomes{b}."
+{b}Core Context and Purpose of Project Management:{b}
+PMI positions project management within a "{b}System for Value Delivery{b}," where the emphasis is on achieving desired {b}outcomes{b} and {b}value{b} for the organization and its stakeholders, rather than solely on producing outputs (deliverables).
+{b}Value Delivery System:{b} This system integrates portfolios, programs, projects, products, and operations. Information and feedback flow continuously to align with organizational strategy and adapt to the environment. Projects inherently drive change and enable business value creation (e.g., meeting business objectives, satisfying stakeholder expectations, increasing predictability, delivering the right products on time).
+{b}Project Management Activities (from Process Groups: A Practice Guide):{b} Managing a project typically includes:
+Identifying project requirements.
+Addressing the diverse needs, concerns, and expectations of stakeholders.
+Establishing and maintaining active communication.
+Executing work to deliver project outcomes.
+Managing resources.
+Balancing the competing project constraints, which include but are not limited to scope, schedule, cost, quality, resources, and risk. The prioritization of these constraints is influenced by project circumstances.
+{b}Importance of Project Management (from Process Groups: A Practice Guide):{b} Effective project management enables organizations to achieve business objectives, satisfy stakeholders, increase predictability and chances of success, and deliver the right products on time. Conversely, poorly managed projects can lead to missed requirements/deadlines, cost overruns, poor quality, rework, waste, uncontrolled project expansion, loss of reputation, and unsatisfied stakeholders.
+{b}Foundational Elements (from Process Groups: A Practice Guide):{b} Key concepts include Project, Program, Program Management, Portfolio, Portfolio Management, Operations Management, and Organizational Project Management (OPM), which integrates these disciplines with organizational enablers to achieve strategic objectives.
+{b}Principles-Based Standard (from The Standard for Project Management):{b} This standard is built upon 12 Project Management Principles that serve as foundational guidelines for the behavior and actions of project professionals. These principles are not prescriptive but guide how effective project management is conducted across various contexts, and include themes such as:
+Stewardship (diligence, respect, care, integrity, compliance).
+Collaborative project team environment (team agreements, structures, processes).
+Effective stakeholder engagement.
+Focus on value.
+Recognize, evaluate, and respond to system interactions.
+Demonstrate leadership behaviors.
+Tailor based on context.
+Build quality into processes and deliverables.
+Navigate complexity.
+Optimize risk responses.
+Embrace adaptability and resiliency.
+Enable change to achieve the envisioned future state.
+{b}Project Performance Domains (from PMBOK® Guide – Seventh Edition):{b} Project performance domains are groups of related activities critical for effective project outcome delivery. They are interactive, interrelated, and interdependent, operating concurrently throughout the project lifecycle. These include: Stakeholders, Team, Development Approach and Life Cycle, Planning, Project Work, Delivery, Measurement, and Uncertainty.
+{b}Tailoring (from Process Groups: A Practice Guide):{b} Tailoring is the deliberate adaptation of the project management approach, governance, and processes to fit the specific project environment and needs. It is driven by principles, organizational values, and culture, aiming for efficiency and effectiveness by adding, modifying, or removing elements as appropriate.

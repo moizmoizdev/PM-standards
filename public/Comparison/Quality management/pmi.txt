@@ -1,0 +1,23 @@
+{b}The Principle: "Build Quality into Processes and Deliverables"{b}
+This principle states that projects should maintain a focus on quality that produces deliverables that meet project objectives and align to the needs, uses, and acceptance requirements set forth by relevant stakeholders. Key aspects include:
+Project quality entails satisfying stakeholders’ expectations and fulfilling project and product requirements.
+Quality focuses on meeting acceptance criteria for deliverables.
+Project quality entails ensuring project processes are appropriate and as effective as possible.
+{b}The Delivery Performance Domain (PMBOK 7):{b}
+This domain addresses activities associated with delivering the scope and quality that the project was undertaken to achieve. It emphasizes that delivery is more than just scope and requirements; it also focuses on the performance levels required.
+Requirements: A condition or capability necessary to be present in a product, service, or result to satisfy a business need.
+Scope Definition: As requirements are identified, the scope that will meet them is defined.
+Cost of Quality (COQ): This methodology is used to find the appropriate balance for investing in quality prevention and appraisal to avoid defect or product failures. It includes four categories:
+Prevention Costs: Incurred to keep defects and failures out of a product.
+Appraisal Costs: Incurred to determine the degree of conformance to quality requirements.
+Internal Failure Costs: Associated with finding and correcting defects before the customer receives the product.
+External Failure Costs: Associated with defects found after the customer has the product.
+{b}The Planning, Executing, and Monitoring & Controlling Process Groups (Process Groups Guide):{b}
+These groups contain specific processes for managing quality:
+{b}Plan Quality Management:{b} The process of identifying quality requirements and/or standards for the project and its deliverables, and documenting how the project will demonstrate compliance. The primary outputs are the Quality Management Plan and Quality Metrics.
+{b}Manage Quality:{b} The process of translating the quality management plan into executable quality activities that incorporate the organization’s quality policies into the project. This process increases the probability of meeting quality objectives and identifies ineffective processes. The primary outputs are Quality Reports and Test and Evaluation Documents.
+{b}Control Quality:{b} The process of monitoring and recording results of executing the quality management activities to assess performance and ensure the project outputs are complete, correct, and meet customer expectations. Key outputs include Quality Control Measurements and Verified Deliverables.
+{b}Key Quality Artifacts:{b}
+Quality Management Plan: A component of the project management plan that describes how applicable policies, procedures, and guidelines will be implemented to achieve the quality objectives.
+Quality Metrics: A description of a project or product attribute and how the Control Quality process will measure it.
+Quality Report: A project document that includes quality management issues, recommendations for corrective actions, and a summary of findings from quality control activities.

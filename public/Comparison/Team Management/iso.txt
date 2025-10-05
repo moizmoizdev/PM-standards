@@ -1,0 +1,17 @@
+The ISO standards address team management within the broader context of Resource Management, focusing on the planning, acquisition, and management of human resources needed to complete the project.
+{b}Planning the Project Organization{b}
+Human resources involved in the work should be justified and assigned according to the roles and responsibilities needed to complete the work. These responsibilities should be defined according to a specific project organization, which can be aligned with the appropriate levels of the work. The project organization is a temporary structure that defines roles, responsibilities, and authorities in the project and should:
+Specify clear reporting lines.
+Be approved by the project sponsor or project board.
+Be communicated to everyone involved in the project.
+In planning the project organization, the project's stakeholders’ needs, opportunities, and requirements should be considered. Human resource planning should address factors such as internal or external sources, competencies, legal requirements, timing of engagement, and training requirements.
+{b}The Project Team Management Process:{b}
+ISO 21502 outlines a structured approach to managing the project team, which includes the following key activities:
+{b}Establishing the Team:{b} This includes acquiring the resources needed and providing them with directions to carry out their work. The work location, commitment, roles and responsibilities, and reporting requirements should be established. The project manager should determine how and when project team members need to be acquired, allocated, and released from the project. When establishing a team, the project manager should consider factors such as skills and expertise, culture, cost, and group dynamics.
+{b}Developing the Team:{b} This aims to help the team members work together in a cohesive and collaborative way. This development depends on the competencies of the project team and can necessitate improving the performance and interaction of team members in a continual manner to enhance teamwork, motivation, and performance. Ground rules of acceptable behavior should be established early to minimize misunderstandings and conflicts. Competency gaps should be identified and filled with appropriate training, coaching, and other initiatives.
+{b}Managing the Team:{b} This aims at motivating the team and maintaining a positive working environment, where team members feel involved, perform at their best, and focus on their assigned work. The project manager should seek to optimize team performance by providing feedback, resolving personal disputes, and encouraging collaborative working. When conflicts occur, they should be managed appropriately, according to the situation.
+{b}Competencies of Project Personnel{b}
+A gap between the required and available competencies should be considered as either a constraint or risk to the project. Competencies and skills can be improved or increased through continuing personal and professional development. They can be categorized into:
+Technical competencies: for directing, managing, planning, and delivering a project.
+Behavioral competencies: associated with personal relationships, such as leadership, team building, people management, coaching, negotiation, and conflict management.
+Business and other competencies: related to the management of the project within the organizational, contractual, and external environment.

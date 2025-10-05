@@ -1,0 +1,15 @@
+PRINCE2 is designed to be adaptable to any project context, which it defines through five specific aspects, including the organizational environment. The method emphasizes understanding and navigating the "organizational ecosystem."
+{b}The Project Context{b}
+PRINCE2 has been designed so it can work within any context, including organizational and commercial context, delivery method, sustainability requirements, and project scale. How PRINCE2 can be applied to common contexts is a key part of the method.
+{b}The Organizational Ecosystem and Project Ecosystem{b}
+Organizations are a complex ecosystem of fluctuating relationships. The success of a project depends on how well it establishes strong relationships with the organizations that support its delivery and how it fits into the organizational ecosystem to deliver the change.
+Organizational ecosystem: The internal elements of an organization (including staff, board, owners, and other stakeholders) together with the organization’s external relationships such as customers, partners, suppliers, regulators, and competitors.
+Project ecosystem: Those elements of the business involved in or directly impacted by the project and the associated users and suppliers.
+{b}Key Aspects of the Organizational Environment{b}
+{b}Organizational Context:{b} PRINCE2 does not assume any specific organizational context. There may be users who specify the desired outputs, suppliers who provide resources and expertise, and business decision-makers who ensure the project remains justified. These parties may all come from the same organization, or they may be in separate organizations with commercial agreements.
+{b}Organizational Culture:{b} Projects often combine people from different parts of the organizational ecosystem, where different working cultures may exist. A project team may need to establish a project culture that is distinct from the business but remains aligned. Defined ways of working should remain aligned with how people are actually working.
+{b}Organizational Layers:{b} PRINCE2 defines four organizational layers for project management:
+Commissioning (business layer): The authority responsible for providing the project mandate and defining project-level tolerances.
+Directing (project board): Accountable for the success of the project and providing overall direction.
+Managing (project manager): Responsible for the day-to-day management of the project.
+Delivering (team managers): Responsible for the day-to-day management of their element of the project.

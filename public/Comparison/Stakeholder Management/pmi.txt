@@ -1,0 +1,32 @@
+PMI's standards provide a comprehensive perspective on how project life cycles and development approaches are chosen and managed, emphasizing flexibility and value delivery.
+{b}Definition of Project Life Cycle (from The Standard for Project Management):{b}
+The project life cycle is "{b}the series of phases that a project passes through from its start to its completion{b}."
+{b}Definition of Project Phase (from The Standard for Project Management):{b}
+A project phase is "{b}a collection of logically related project activities that culminates in the completion of one or more deliverables{b}."
+{b}Development Approach and Life Cycle Performance Domain (from PMBOK® Guide – Seventh Edition):{b}
+This domain focuses on establishing the appropriate development approach, delivery cadence, and project life cycle to optimize project outcomes.
+{b}Development Approaches (from PMBOK® Guide – Seventh Edition, 2.3.3 & Process Groups: A Practice Guide, 1.7.1):{b}
+These are the means used to create and evolve the product, service, or result during the project life cycle, viewed as a spectrum:
+Predictive approach (Waterfall): Useful when project and product requirements are well-defined and stable at the start. Planning is done upfront, with frequent reviews and change control for significant investments.
+Adaptive approach (Agile/Change-Driven): Useful for high uncertainty and volatility in requirements. A clear vision is set, but requirements are refined iteratively based on user feedback and emerging events. Characterized by short iterations (e.g., 1-2 weeks), prioritized backlogs, and collaborative team work.
+Hybrid approach: A combination of predictive and adaptive elements. Suitable when some parts of the project are well-defined while others are uncertain (e.g., predictive for deployment, adaptive for product development).
+{b}Delivery Cadence (from The Standard for Project Management, 2.3.2 & Process Groups: A Practice Guide, 2.3.2):{b}
+This refers to the timing and frequency of project deliverables:
+Single delivery: All deliverables provided at the end of the project (e.g., process reengineering).
+Multiple deliveries: Several components delivered at different times throughout the project (e.g., new drug development with sequential trials, or building security updates that don't need a specific order).
+Periodic deliveries: Deliveries on a fixed schedule (e.g., monthly, bi-monthly software releases).
+Continuous delivery: Feature increments delivered immediately to customers, often using small batches and automation.
+{b}Life Cycle and Phase Definitions (from The Standard for Project Management, 2.3.5):{b}
+The type and number of project phases depend on the delivery cadence and development approach. Examples of phases include:
+Feasibility: Determining if the business case is valid and if the organization has the capability to deliver.
+Design: Planning and analysis for the deliverable.
+Build: Construction of the deliverable with quality assurance.
+Test: Final quality review before transition.
+Deploy: Putting deliverables into use and completing transitional activities.
+Close: Archiving knowledge, releasing team members, and closing contracts.
+Project phases often include phase gates (or stage gates) for reviews and decisions before proceeding.
+{b}Considerations for Selecting a Development Approach (from The Standard for Project Management, 2.3.4):{b}
+The selection is influenced by variables related to:
+Product, Service, or Result: Degree of innovation, requirements certainty, scope stability, ease of change, delivery options (components or full), risk levels, safety requirements, and regulatory needs.
+Project: Stakeholder involvement, schedule constraints, and funding availability.
+Organization: Organizational structure, culture (e.g., managing vs. self-management), organizational capability (agility), and project team size/location.
