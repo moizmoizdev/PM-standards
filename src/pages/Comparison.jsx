@@ -865,14 +865,14 @@ const Comparison = () => {
                   {bookComparison.content1.map((record, index) => (
                     <div key={index} className="mb-6">
                       {formatContent(record.content)}
-                    </div>
-                  ))}
                 </div>
-              </CardContent>
-            </Card>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
 
-            <Card>
-              <CardHeader>
+          <Card>
+            <CardHeader>
                 <CardTitle className={`flex items-center justify-between ${books[selectedBook2].color}`}>
                   <div className="flex items-center gap-2">
                     <Book className="h-5 w-5" />
@@ -887,14 +887,14 @@ const Comparison = () => {
                     <ExternalLink className="h-3 w-3" />
                     Go to Reference
                   </Button>
-                </CardTitle>
-                <CardDescription>
+              </CardTitle>
+              <CardDescription>
                   {selectedTopic2}
                   {selectedSubtopic2 && ` > ${selectedSubtopic2}`}
                   {selectedSubsubtopic2 && ` > ${selectedSubsubtopic2}`}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
                 <div className="h-96 overflow-y-scroll text-foreground leading-relaxed p-4 bg-white/50 rounded border">
                   {bookComparison.content2.map((record, index) => (
                     <div key={index} className="mb-6">
@@ -902,8 +902,8 @@ const Comparison = () => {
                     </div>
                   ))}
                 </div>
-              </CardContent>
-            </Card>
+            </CardContent>
+          </Card>
           </div>
         )}
 

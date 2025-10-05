@@ -32,8 +32,8 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto mb-8 leading-relaxed">
-          Streamline your projects with intelligent tools, seamless collaboration, 
-          and data-driven insights for better outcomes.
+          Compare PMBOK, ISO 21500, and PRINCE2 standards with intelligent search, 
+          interactive comparisons, and comprehensive insights for better project management.
         </p>
 
         {/* CTA Buttons */}
@@ -58,22 +58,22 @@ const Hero = () => {
             <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-3">
               <TrendingUp className="h-6 w-6 text-primary" />
             </div>
-            <div className="text-2xl sm:text-3xl font-bold text-foreground">50+</div>
-            <div className="text-sm text-muted-foreground">Analysis Models</div>
+            <div className="text-2xl sm:text-3xl font-bold text-foreground">4</div>
+            <div className="text-sm text-muted-foreground">PM Standards</div>
           </div>
           <div className="text-center">
             <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-3">
               <Target className="h-6 w-6 text-primary" />
             </div>
-            <div className="text-2xl sm:text-3xl font-bold text-foreground">15+</div>
-            <div className="text-sm text-muted-foreground">PM Methodologies</div>
+            <div className="text-2xl sm:text-3xl font-bold text-foreground">4</div>
+            <div className="text-sm text-muted-foreground">Digital Books</div>
           </div>
           <div className="text-center">
             <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-3">
               <Users className="h-6 w-6 text-primary" />
             </div>
-            <div className="text-2xl sm:text-3xl font-bold text-foreground">1000+</div>
-            <div className="text-sm text-muted-foreground">Success Stories</div>
+            <div className="text-2xl sm:text-3xl font-bold text-foreground">9</div>
+            <div className="text-sm text-muted-foreground">Topic Areas</div>
           </div>
         </div>
       </div>

@@ -1,250 +1,159 @@
-# PM Standards Analyzer 🎯
+# Project Management Standards Platform - Design Decision Document
 
-A comprehensive web application for analyzing and comparing project management standards including PMBOK Guide 7th Edition, ISO 21502:2020, and ISO 21500:2021. Features intelligent AI-powered semantic search, cross-standard comparisons, and deep-linking navigation.
+## Core Architecture Decisions
 
-![PM Standards Analyzer](https://img.shields.io/badge/React-18.2.0-blue?style=flat-square&logo=react)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.3-38B2AC?style=flat-square&logo=tailwind-css)
-![AI Powered](https://img.shields.io/badge/AI-Semantic%20Search-purple?style=flat-square&logo=openai)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+### 1. Frontend Framework Selection
+**Decision:** React 18 + Vite
+**Rationale:** 
+- Modern React features (hooks, concurrent rendering)
+- Vite provides fast development server and optimized builds
+- Excellent ecosystem for component-based architecture
+- Strong TypeScript support for future scalability
 
-## ✨ Features:
+### 2. State Management Approach
+**Decision:** React useState + useEffect (No external state management)
+**Rationale:**
+- Application complexity doesn't require Redux/Zustand
+- Local state sufficient for component interactions
+- Simpler debugging and maintenance
+- Reduced bundle size
 
-### 🔍 **Intelligent Search**
-- **Regular Search**: Lightning-fast keyword-based search across all standards
-- **AI Semantic Search**: Advanced semantic understanding using transformer models
-- **Hybrid Search**: Combines AI intelligence with keyword precision
-- **Deep Linking**: Direct navigation to specific topics and subtopics
+### 3. Data Storage Strategy
+**Decision:** JSON files + Text files (No database)
+**Rationale:**
+- Static content doesn't require dynamic database
+- Faster loading with pre-processed data
+- Easier deployment and version control
+- Cost-effective for read-heavy application
 
-### 📊 **Comprehensive Comparisons**
-- **Standards Comparison**: Side-by-side analysis of PM standards approaches
-- **Interactive Heatmap**: Visual comparison matrix with topic coverage analysis
-- **Cross-Book Comparison**: Compare any two book topics/subtopics in detail
-- **Go to Reference**: Seamless navigation from comparisons to full content
+### 4. AI Integration Architecture
+**Decision:** Client-side AI with Transformers.js
+**Rationale:**
+- No server costs for AI processing
+- Privacy-first approach (data stays in browser)
+- Offline capability for search functionality
+- Uses proven all-MiniLM-L6-v2 embedding model
 
-### 📚 **Complete Content Access**
-- **Structured Reading**: Hierarchical navigation through books and topics
-- **Multi-Level Content**: Support for topics, subtopics, and sub-subtopics
-- **Content Filtering**: Smart filtering of incomplete or unlabeled content
-- **URL Parameters**: Shareable deep links to specific content sections
+### 5. Search Implementation
+**Decision:** Hybrid Search (Keyword + Semantic)
+**Rationale:**
+- Keyword search for exact matches and fast results
+- Semantic search for meaning-based discovery
+- Fallback mechanism ensures reliability
+- Progressive enhancement (keyword first, AI second)
 
-### 🧠 **AI-Powered Insights**
-- **Semantic Understanding**: Find related concepts even without exact word matches
-- **Context-Aware Results**: Understands meaning behind queries
-- **Resource Optimization**: Configurable performance vs. speed trade-offs
-- **Fallback Strategy**: Graceful degradation to keyword search
+### 6. Content Processing Pipeline
+**Decision:** Multi-format content support
+**Rationale:**
+- JSON for structured book data (hierarchical navigation)
+- Text files for insights and comparisons
+- PDF integration for downloads
+- Flexible parsing for different content types
 
-## 🚀 Quick Start
+## UI/UX Design Decisions
 
-### Prerequisites
-- Node.js 16+ 
-- npm or yarn
+### 1. Design System
+**Decision:** Tailwind CSS + Custom CSS Variables
+**Rationale:**
+- Rapid prototyping and consistent styling
+- Light, skin-toned color palette for professional appearance
+- Utility-first approach for maintainable styles
+- Custom animations for engaging user experience
 
-### Installation
+### 2. Navigation Architecture
+**Decision:** Dashboard-centric navigation
+**Rationale:**
+- Single entry point reduces cognitive load
+- Clear separation of major features (Search, Comparison, Read)
+- Breadcrumb navigation for deep content access
+- Mobile-first responsive design
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/pm-standards-analyzer.git
-cd pm-standards-analyzer
+### 3. Content Display Strategy
+**Decision:** Progressive disclosure with multi-level navigation
+**Rationale:**
+- Book → Section → Topic → Subtopic → Content hierarchy
+- Reduces information overload
+- Maintains context while drilling down
+- Consistent navigation patterns across features
 
-# Install dependencies
-npm install
+### 4. Animation Philosophy
+**Decision:** Subtle, non-interfering animations
+**Rationale:**
+- Background elements create living interface
+- Page transitions provide spatial awareness
+- Animations enhance without distracting
+- Performance-optimized with CSS transforms
 
-# Start development server
-npm run dev
-```
+### 5. Comparison Interface Design
+**Decision:** Side-by-side comparison with visual heatmap
+**Rationale:**
+- Visual comparison matrix for quick overview
+- Detailed side-by-side for in-depth analysis
+- Toggle between views for different use cases
+- Interactive elements for exploration
 
-Visit `http://localhost:5173` to access the application.
+### 6. Search Experience Design
+**Decision:** Progressive search with AI enhancement
+**Rationale:**
+- Immediate keyword results for fast access
+- Optional AI search for deeper discovery
+- Clear indication of search types and performance
+- Deep linking to relevant content
 
-## 📖 Available Standards
+## Technical Implementation Decisions
 
-| Standard | Description | Coverage |
-|----------|-------------|----------|
-| **PMBOK Guide 7th Edition** | A Guide to the Project Management Body of Knowledge | 257 records |
-| **ISO 21502:2020** | Project, programme and portfolio management — Guidance on project management | 695 records |
-| **ISO 21500:2021** | Project, programme and portfolio management — Context and concepts | 130 records |
+### 1. Build and Deployment
+**Decision:** Vite + Vercel
+**Rationale:**
+- Vite provides modern build tooling
+- Vercel offers seamless GitHub integration
+- Static site generation for optimal performance
+- CDN distribution for global accessibility
 
-## 🎯 Usage Examples
+### 2. Performance Optimization
+**Decision:** Lazy loading + Code splitting
+**Rationale:**
+- AI models loaded only when needed
+- Reduced initial bundle size
+- Progressive enhancement approach
+- Resource management for browser stability
 
-### Basic Search
-```
-Search: "risk management"
-→ Finds exact mentions of risk management across all standards
-```
+### 3. Error Handling Strategy
+**Decision:** Graceful degradation with user feedback
+**Rationale:**
+- Fallback to keyword search if AI fails
+- Clear error messages and progress indicators
+- Non-blocking error handling
+- User-friendly timeout management
 
-### Semantic Search (AI)
-```
-Search: "team leadership"
-→ Finds related concepts: "managing people", "human resources", "team dynamics"
+### 4. Content Parsing Approach
+**Decision:** Custom parsers for different book formats
+**Rationale:**
+- PMBOK: Flat JSON structure with filtering
+- ISO: Nested JSON with recursive parsing
+- PRINCE2: Structured JSON with hierarchy
+- Flexible parsing accommodates different sources
 
-Search: "project uncertainty" 
-→ Finds: "risk management", "threat analysis", "uncertainty handling"
-```
+## Future Considerations
 
-### Deep Linking
-```
-URL: /read-book?book=pmbok&topic=Risk%20Management&subtopic=Risk%20Response
-→ Opens PMBOK directly to Risk Response subtopic
-```
+### Scalability
+- Component architecture supports feature additions
+- Modular design allows for easy maintenance
+- JSON-based data can migrate to database if needed
+- AI integration can scale with better models
 
-## 🏗️ Architecture
+### Extensibility
+- Plugin architecture for new book formats
+- Configurable comparison matrices
+- Extensible search algorithms
+- Customizable UI themes
 
-### Frontend
-- **React 18**: Modern functional components with hooks
-- **Tailwind CSS**: Utility-first styling with custom theme
-- **React Router**: Client-side routing with deep linking
-- **Lucide React**: Consistent iconography
-
-### AI/ML
-- **Transformers.js**: Browser-based machine learning
-- **all-MiniLM-L6-v2**: Lightweight semantic embedding model
-- **Cosine Similarity**: Vector similarity calculations
-- **Lazy Loading**: On-demand model initialization
-
-### Data Structure
-```json
-{
-  "sections": {
-    "section_key": {
-      "name": "Section Name",
-      "records": [
-        {
-          "topic": "Main Topic",
-          "subtopic": "Subtopic",
-          "subsubtopic": "Sub-subtopic",
-          "content": "Detailed content..."
-        }
-      ]
-    }
-  }
-}
-```
-
-## 🛠️ Development
-
-### Project Structure
-```
-src/
-├── components/          # Reusable UI components
-│   └── ui/             # Base UI components (Button, Card, etc.)
-├── pages/              # Main application pages
-│   ├── Dashboard.jsx   # Main navigation hub
-│   ├── Search.jsx      # Search functionality
-│   ├── Comparison.jsx  # Standards comparison
-│   └── ReadBook.jsx    # Content reading interface
-├── utils/              # Utility functions
-│   └── semanticSearch.js # AI search engine
-└── data/               # Static data and configurations
-```
-
-### Key Components
-
-#### Search Engine (`src/utils/semanticSearch.js`)
-- Lazy-loaded transformer model
-- Embedding caching for performance
-- Resource-configurable processing
-- Hybrid search combining semantic + keyword
-
-#### Comparison Engine (`src/pages/Comparison.jsx`)
-- Standards comparison matrix
-- Interactive heatmap visualization
-- Cross-book topic comparison
-- Deep linking integration
-
-#### Content Reader (`src/pages/ReadBook.jsx`)
-- Hierarchical content navigation
-- URL parameter parsing
-- Progressive disclosure UI
-- Content filtering and validation
-
-### Configuration
-
-#### AI Search Performance
-```javascript
-// Resource-intensive (better quality)
-maxConcurrentEmbeddings: 5
-batchDelay: 50ms
-precision: 'fp32'
-cacheSize: 500
-
-// Resource-friendly (faster)
-maxConcurrentEmbeddings: 3
-batchDelay: 100ms  
-precision: 'fp16'
-cacheSize: 200
-```
-
-## 🎨 Customization
-
-### Theme Colors
-The application uses a light, skin-toned color palette defined in `src/index.css`:
-
-```css
-:root {
-  --background: 45 7% 97%;
-  --foreground: 20 6% 10%;
-  --primary: 24 10% 60%;
-  --accent: 30 15% 92%;
-}
-```
-
-### Adding New Standards
-1. Prepare data in the required JSON format
-2. Add book configuration in relevant components
-3. Place JSON file in `public/flattened_books/`
-4. Update book count in dashboard statistics
-
-## 🚦 Performance
-
-### Search Performance
-- **Regular Search**: <100ms (instant)
-- **AI Semantic Search**: 30-120 seconds (configurable)
-- **Hybrid Search**: 45-150 seconds (best quality)
-
-### Optimization Features
-- Embedding caching reduces repeat processing
-- Progressive loading prevents browser freezing
-- Configurable resource usage
-- Graceful fallback to keyword search
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow React functional component patterns
-- Use Tailwind CSS for styling
-- Maintain responsive design principles
-- Add proper error handling
-- Include user feedback for long operations
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Transformers.js** - Browser-based machine learning
-- **Hugging Face** - Pre-trained language models
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide** - Beautiful icon library
-- **React Team** - Modern web development framework
-
-## 📞 Support
-
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/yourusername/pm-standards-analyzer/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/pm-standards-analyzer/discussions)
-- 📧 **Contact**: your.email@example.com
+### Maintenance
+- Clear separation of concerns
+- Comprehensive error handling
+- Performance monitoring capabilities
+- Version control for content updates
 
 ---
 
-<div align="center">
-
-**[🌐 Live Demo](https://your-demo-url.com)** | **[📚 Documentation](https://github.com/yourusername/pm-standards-analyzer/wiki)** | **[🎯 Roadmap](https://github.com/yourusername/pm-standards-analyzer/projects)**
-
-Made with ❤️ for the Project Management community
-
-</div>
+*This document outlines the key architectural and design decisions that shaped the Project Management Standards Platform, providing rationale for technical choices and design patterns used throughout the application.*

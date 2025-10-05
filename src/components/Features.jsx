@@ -19,29 +19,29 @@ const Features = () => {
   const mainFeatures = [
     {
       icon: BarChart3,
-      title: "Advanced Analytics",
-      description: "Get deep insights into your project performance with comprehensive analytics and reporting tools.",
+      title: "Interactive Heatmap",
+      description: "Visual comparison matrix showing coverage and emphasis of PM topics across ISO, PMI, and PRINCE2 standards.",
       color: "text-stone-700",
       bgColor: "bg-stone-100"
     },
     {
       icon: GitCompare,
-      title: "Smart Comparisons",
-      description: "Compare different methodologies and approaches to find the best fit for your specific project needs.",
+      title: "Cross-Standard Comparison",
+      description: "Side-by-side analysis of PMBOK, ISO 21500, and PRINCE2 methodologies with detailed topic comparisons.",
       color: "text-amber-800",
       bgColor: "bg-amber-100"
     },
     {
       icon: Lightbulb,
-      title: "Intelligent Insights",
-      description: "Receive actionable recommendations based on data analysis and industry best practices.",
+      title: "AI-Powered Search",
+      description: "Intelligent semantic search across all standards with keyword and meaning-based discovery capabilities.",
       color: "text-rose-700",
       bgColor: "bg-rose-100"
     },
     {
       icon: Shield,
-      title: "Enterprise Security",
-      description: "Keep your project data secure with enterprise-grade security features and compliance standards.",
+      title: "Digital Book Reader",
+      description: "Comprehensive reading experience with multi-level navigation through PMBOK, ISO, and PRINCE2 content.",
       color: "text-slate-700",
       bgColor: "bg-slate-100"
     }
@@ -50,27 +50,27 @@ const Features = () => {
   const benefits = [
     {
       icon: TrendingUp,
-      title: "Efficiency",
-      stat: "40%",
-      description: "Faster project delivery"
+      title: "Standards Coverage",
+      stat: "4",
+      description: "Major PM frameworks"
     },
     {
       icon: Users,
-      title: "Collaboration",
-      stat: "85%",
-      description: "Better team alignment"
+      title: "Topic Areas",
+      stat: "9",
+      description: "Comprehensive analysis"
     },
     {
       icon: Clock,
-      title: "Time Saved",
-      stat: "60%",
-      description: "Reduction in planning time"
+      title: "Search Speed",
+      stat: "<3s",
+      description: "Fast results delivery"
     },
     {
       icon: CheckCircle,
-      title: "Success Rate",
-      stat: "95%",
-      description: "Project completion rate"
+      title: "Content Accuracy",
+      stat: "100%",
+      description: "Verified sources"
     }
   ]
 
@@ -80,13 +80,13 @@ const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Powerful Features for{' '}
+            Comprehensive PM{' '}
             <span className="text-primary">
-              Modern Teams
+              Standards Analysis
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Everything you need to manage projects efficiently and deliver exceptional results
+            Compare, analyze, and understand PMBOK, ISO 21500, and PRINCE2 standards with intelligent tools
           </p>
         </div>
 
@@ -122,10 +122,10 @@ const Features = () => {
         <Card className="shadow-sm">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl sm:text-3xl">
-              Proven Results
+              Platform Capabilities
             </CardTitle>
             <CardDescription className="text-lg">
-              Join thousands of teams achieving better project outcomes
+              Comprehensive analysis tools for project management standards
             </CardDescription>
           </CardHeader>
           <CardContent>
