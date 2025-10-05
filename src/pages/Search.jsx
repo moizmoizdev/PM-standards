@@ -23,7 +23,8 @@ const Search = () => {
       description: 'A Guide to the Project Management Body of Knowledge',
       color: 'text-green-700',
       bgColor: 'bg-green-50',
-      borderColor: 'border-green-200'
+      borderColor: 'border-green-200',
+      pdfFile: 'PMBOK.pdf'
     },
     iso2020: {
       name: 'ISO 21502:2020',
@@ -31,7 +32,8 @@ const Search = () => {
       description: 'Project, programme and portfolio management — Guidance on project management',
       color: 'text-blue-700',
       bgColor: 'bg-blue-50',
-      borderColor: 'border-blue-200'
+      borderColor: 'border-blue-200',
+      pdfFile: 'ISO1.pdf'
     },
     iso2021: {
       name: 'ISO 21500:2021',
@@ -39,7 +41,8 @@ const Search = () => {
       description: 'Project, programme and portfolio management — Context and concepts',
       color: 'text-purple-700',
       bgColor: 'bg-purple-50',
-      borderColor: 'border-purple-200'
+      borderColor: 'border-purple-200',
+      pdfFile: 'ISO2.pdf'
     },
     prince2: {
       name: 'PRINCE2',
@@ -47,7 +50,8 @@ const Search = () => {
       description: 'PRojects IN Controlled Environments - Structured project management method',
       color: 'text-orange-700',
       bgColor: 'bg-orange-50',
-      borderColor: 'border-orange-200'
+      borderColor: 'border-orange-200',
+      pdfFile: 'PRINCE2.pdf'
     }
   }
 

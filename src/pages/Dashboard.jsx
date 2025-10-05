@@ -1,20 +1,10 @@
 import React from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { Button } from '../components/ui/button'
-import { Lightbulb, GitCompare, BookOpen, ArrowRight, BarChart3, Target, Users, Search } from 'lucide-react'
+import { Lightbulb, GitCompare, BookOpen, ArrowRight, BarChart3, Target, Users } from 'lucide-react'
 
 const Dashboard = ({ onNavigate }) => {
   const dashboardOptions = [
-    {
-      id: 'search',
-      title: 'Search',
-      description: 'Search across all PM standards and books for specific topics or content',
-      icon: Search,
-      color: 'text-orange-700',
-      bgColor: 'bg-orange-50',
-      borderColor: 'border-orange-200',
-      features: ['Smart Search', 'All Books', 'Quick Results']
-    },
     {
       id: 'insights',
       title: 'Insights',
@@ -33,7 +23,7 @@ const Dashboard = ({ onNavigate }) => {
       color: 'text-blue-700',
       bgColor: 'bg-blue-50',
       borderColor: 'border-blue-200',
-      features: ['Side-by-side Analysis', '9 Topic Areas', '3 Standards']
+      features: ['Side-by-side Analysis', '9 Topic Areas', '4 Standards']
     },
     {
       id: 'read-book',
@@ -51,7 +41,7 @@ const Dashboard = ({ onNavigate }) => {
   const stats = [
     {
       icon: Target,
-      value: '3',
+      value: '4',
       label: 'PM Standards',
       color: 'text-blue-600'
     },
@@ -72,113 +62,99 @@ const Dashboard = ({ onNavigate }) => {
   return (
     <div className="min-h-screen pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Page Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            PM Standards <span className="gradient-text">Dashboard</span>
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4 gradient-text">
+            PM Standards Hub
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore project management standards through insights, comparisons, and comprehensive analysis
+          <p className="text-gray-600 max-w-2xl mx-auto mb-6">
+            Your comprehensive platform for analyzing and comparing project management standards. 
+            Explore insights, compare methodologies, and access complete documentation.
           </p>
+          
+          {/* Compact Stats */}
+          <div className="flex justify-center items-center gap-8 mb-8">
+            {stats.map((stat, index) => {
+              const Icon = stat.icon
+              return (
+                <div key={index} className="flex items-center gap-2 text-sm">
+                  <Icon className={`h-4 w-4 ${stat.color}`} />
+                  <span className="font-semibold text-gray-900">{stat.value}</span>
+                  <span className="text-gray-600">{stat.label}</span>
+                </div>
+              )
+            })}
+          </div>
         </div>
 
-        {/* Quick Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon
-            return (
-              <Card key={index} className="text-center hover-glow">
-                <CardContent className="pt-6">
-                  <Icon className={`h-12 w-12 ${stat.color} mx-auto mb-4 transition-transform duration-300 hover:scale-110`} />
-                  <h3 className="text-3xl font-bold text-foreground mb-2">{stat.value}</h3>
-                  <p className="text-muted-foreground">{stat.label}</p>
-                </CardContent>
-              </Card>
-            )
-          })}
-        </div>
-
-        {/* Dashboard Options */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {/* Main Options */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
           {dashboardOptions.map((option) => {
             const Icon = option.icon
             return (
               <Card 
-                key={option.id} 
-                className={`${option.bgColor} ${option.borderColor} border-2 transition-all duration-200 hover:shadow-lg card-hover-effect ${
-                  option.disabled ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer'
-                }`}
-                onClick={() => !option.disabled && onNavigate(option.id)}
+                key={option.id}
+                className={`cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 ${option.borderColor} hover-glow card-hover-effect`}
+                onClick={() => onNavigate(option.id)}
               >
-                <CardHeader>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-3">
-                      <div className="p-3 rounded-lg bg-white group-hover:scale-110 transition-transform duration-300">
-                        <Icon className={`h-8 w-8 ${option.color}`} />
-                      </div>
-                      <div>
-                        <CardTitle className="text-2xl">{option.title}</CardTitle>
-                        {option.disabled && (
-                          <span className="text-xs bg-muted text-muted-foreground px-2 py-1 rounded">
-                            Coming Soon
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                    {!option.disabled && (
-                      <ArrowRight className={`h-6 w-6 ${option.color} transition-transform group-hover:translate-x-1`} />
-                    )}
+                <CardHeader className="pb-4">
+                  <div className={`w-12 h-12 rounded-lg ${option.bgColor} flex items-center justify-center mb-4`}>
+                    <Icon className={`h-6 w-6 ${option.color}`} />
                   </div>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base mb-4">
+                  <CardTitle className="text-xl mb-2">{option.title}</CardTitle>
+                  <CardDescription className="text-gray-600">
                     {option.description}
                   </CardDescription>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-foreground mb-2">Features:</h4>
-                    <ul className="space-y-1">
-                      {option.features.map((feature, index) => (
-                        <li key={index} className="flex items-center space-x-2">
-                          <div className={`w-2 h-2 rounded-full ${option.color.replace('text-', 'bg-')}`} />
-                          <span className="text-sm text-muted-foreground">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
+                </CardHeader>
+                <CardContent className="pt-0">
+                  <div className="space-y-2 mb-4">
+                    {option.features.map((feature, index) => (
+                      <div key={index} className="flex items-center text-sm text-gray-600">
+                        <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></div>
+                        {feature}
+                      </div>
+                    ))}
                   </div>
-                  {!option.disabled && (
-                    <Button 
-                      className="w-full mt-4 pulse-on-hover"
-                      onClick={(e) => {
-                        e.stopPropagation()
-                        onNavigate(option.id)
-                      }}
-                    >
-                      Explore {option.title}
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  )}
+                  <Button 
+                    className="w-full pulse-on-hover"
+                    disabled={option.disabled}
+                  >
+                    {option.disabled ? 'Coming Soon' : 'Explore'}
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
                 </CardContent>
               </Card>
             )
           })}
         </div>
 
-        {/* Welcome Message */}
-        <Card className="mt-12 bg-primary/5 border-primary/20">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <Target className="h-16 w-16 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-2">
-                Welcome to PM Standards Analysis
-              </h3>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                This dashboard provides comprehensive analysis and comparison of major project management 
-                standards including ISO 21500/21502, PMI PMBOK 7th Edition, and PRINCE2. 
-                Start exploring to gain deeper insights into project management methodologies.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
+        {/* Quick Actions */}
+        <div className="text-center">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Quick Actions</h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button 
+              variant="outline" 
+              onClick={() => onNavigate('search')}
+              className="flex items-center gap-2"
+            >
+              🔍 Search Standards
+            </Button>
+            <Button 
+              variant="outline" 
+              onClick={() => onNavigate('comparison')}
+              className="flex items-center gap-2"
+            >
+              📊 Compare Standards
+            </Button>
+            <Button 
+              variant="outline" 
+              onClick={() => onNavigate('read-book')}
+              className="flex items-center gap-2"
+            >
+              📖 Browse Books
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   )

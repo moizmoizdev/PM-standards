@@ -40,7 +40,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Background patterns and elements */
+/* Background patterns and elements - with animation */
 body::before {
   content: '';
   position: fixed;
@@ -64,7 +64,7 @@ body::before {
   50% { opacity: 0.7; }
 }
 
-/* Enhanced floating elements */
+/* Enhanced floating elements - with animation */
 .floating-elements {
   position: fixed;
   top: 0;
@@ -79,10 +79,10 @@ body::before {
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(135deg, rgba(222, 184, 135, 0.3), rgba(210, 180, 140, 0.2));
-  animation: floatEnhanced 6s ease-in-out infinite;
   border: 2px solid rgba(205, 175, 149, 0.3);
   box-shadow: 0 8px 32px rgba(222, 184, 135, 0.2);
   backdrop-filter: blur(4px);
+  animation: floatEnhanced 6s ease-in-out infinite;
 }
 
 .floating-circle:nth-child(1) {
@@ -113,10 +113,10 @@ body::before {
   position: absolute;
   background: linear-gradient(45deg, rgba(205, 175, 149, 0.25), rgba(160, 82, 45, 0.15));
   transform: rotate(45deg);
-  animation: floatEnhanced 8s ease-in-out infinite reverse;
   border: 2px solid rgba(160, 82, 45, 0.2);
   box-shadow: 0 8px 32px rgba(205, 175, 149, 0.2);
   backdrop-filter: blur(4px);
+  animation: floatEnhanced 8s ease-in-out infinite reverse;
 }
 
 .floating-square:nth-child(4) {
@@ -150,7 +150,7 @@ body::before {
   }
 }
 
-/* Particle system */
+/* Particles - with animation */
 .particles {
   position: fixed;
   top: 0;
@@ -251,7 +251,7 @@ body::before {
   height: 300px;
 }
 
-/* Gradient text animation */
+/* Gradient text - with animation */
 .gradient-text {
   background: linear-gradient(45deg, #8B4513, #D2B48C, #DEB887, #F5DEB3);
   background-size: 400% 400%;
@@ -267,21 +267,7 @@ body::before {
   100% { background-position: 0% 50%; }
 }
 
-/* Smooth page transitions */
-.page-transition {
-  animation: fadeInUp 0.6s ease-out;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/* Remove conflicting page transition */
 
 /* Safe card animations - no overlay interference */
 .card-hover-effect {
@@ -340,4 +326,31 @@ body::before {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* Simple page sliding transitions */
+.fadeOut {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+.fadeIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

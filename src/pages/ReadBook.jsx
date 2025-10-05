@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { Button } from '../components/ui/button'
-import { BookOpen, ArrowLeft, ChevronRight, Home } from 'lucide-react'
+import { BookOpen, ArrowLeft, ChevronRight, Home, Download } from 'lucide-react'
 
 const ReadBook = () => {
   const [searchParams] = useSearchParams()
@@ -21,7 +21,8 @@ const ReadBook = () => {
       description: 'A Guide to the Project Management Body of Knowledge',
       color: 'text-green-700',
       bgColor: 'bg-green-50',
-      borderColor: 'border-green-200'
+      borderColor: 'border-green-200',
+      pdfFile: 'PMBOK.pdf'
     },
     iso2020: {
       name: 'ISO 21502:2020',
@@ -29,7 +30,8 @@ const ReadBook = () => {
       description: 'Project, programme and portfolio management — Guidance on project management',
       color: 'text-blue-700',
       bgColor: 'bg-blue-50',
-      borderColor: 'border-blue-200'
+      borderColor: 'border-blue-200',
+      pdfFile: 'ISO1.pdf'
     },
     iso2021: {
       name: 'ISO 21500:2021',
@@ -37,7 +39,8 @@ const ReadBook = () => {
       description: 'Project, programme and portfolio management — Context and concepts',
       color: 'text-purple-700',
       bgColor: 'bg-purple-50',
-      borderColor: 'border-purple-200'
+      borderColor: 'border-purple-200',
+      pdfFile: 'ISO2.pdf'
     },
     prince2: {
       name: 'PRINCE2',
@@ -45,7 +48,8 @@ const ReadBook = () => {
       description: 'PRojects IN Controlled Environments - Structured project management method',
       color: 'text-orange-700',
       bgColor: 'bg-orange-50',
-      borderColor: 'border-orange-200'
+      borderColor: 'border-orange-200',
+      pdfFile: 'PRINCE2.pdf'
     }
   }
 
@@ -66,6 +70,20 @@ const ReadBook = () => {
       console.error('Error loading book:', error)
     }
     setLoading(false)
+  }
+
+  // Download PDF function
+  const downloadPDF = (bookKey) => {
+    const book = books[bookKey]
+    if (book.pdfFile) {
+      const link = document.createElement('a')
+      link.href = `/${book.pdfFile}`
+      link.download = book.pdfFile
+      link.target = '_blank'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    }
   }
 
   // Get sections for selected book
@@ -391,12 +409,14 @@ const ReadBook = () => {
               <Card 
                 key={key} 
                 className={`cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 ${book.borderColor} border-2`}
-                onClick={() => {
-                  setSelectedBook(key)
-                  loadBook(key)
-                }}
               >
-                <CardHeader className={book.bgColor}>
+                <CardHeader 
+                  className={book.bgColor}
+                  onClick={() => {
+                    setSelectedBook(key)
+                    loadBook(key)
+                  }}
+                >
                   <CardTitle className={`flex items-center gap-3 ${book.color}`}>
                     <BookOpen className="w-6 h-6" />
                     {book.name}
@@ -406,9 +426,30 @@ const ReadBook = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <Button className="w-full">
-                    Read Book
-                  </Button>
+                  <div className="flex gap-2">
+                    <Button 
+                      className="flex-1"
+                      onClick={() => {
+                        setSelectedBook(key)
+                        loadBook(key)
+                      }}
+                    >
+                      Read Book
+                    </Button>
+                    <Button 
+                      variant="outline"
+                      size="sm"
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        downloadPDF(key)
+                      }}
+                      className="flex items-center gap-1"
+                      title={`Download ${book.name} PDF`}
+                    >
+                      <Download className="w-4 h-4" />
+                      PDF
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
